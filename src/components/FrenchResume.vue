@@ -32,7 +32,7 @@
       </div>
       <div class="flex flex-col gap-2 p-2 grow">
         <IconText
-          text="Expérience"
+          text="Expériences"
           :icon="BriefcaseIcon"
           :reverse="true"
           class="text-white text-lg"
@@ -59,22 +59,23 @@
           ]"
           location="Irvine, USA"
         />
-        <ExperienceDescription
-          title="Fullstack Web Developpeur"
-          company="SEP Efrei Junior Entreprise"
-          start-date="06/2022"
-          end-date="08/2022"
-          :description="[
-            'Collaboration avec les gestionnaires de projets et les clients pour définir les exigences du projet, assurant la réalisation en temps et en heure des projets.',
-            'Maintien à jour des meilleures pratiques de l\'industrie, intégration de nouvelles technologies et techniques dans notre processus de développement.',
-          ]"
-          location="Villejuif, France"
-        />
+
         <IconText
-          text="Project"
+          text="Projets"
           :icon="RocketLaunchIcon"
           :reverse="true"
           class="text-white text-lg"
+        />
+        <ExperienceDescription
+          title="Traitements du langage naturel"
+          company="Mastercamp"
+          start-date="06/2023"
+          end-date="07/2023"
+          :description="[
+            'Participation à un camp intensif de maîtrise axé sur le traitement du langage naturel (NLP).',
+            'Utilisation d\'algorithmes tels que LSTM et BERT pour la modélisation de séquences de texte.',
+          ]"
+          location="Villejuif, FR"
         />
         <ExperienceDescription
           title="Prédiction du prix de l'électricité"
@@ -191,12 +192,12 @@ import ExperienceDescription from "./ExperienceDescription.vue";
 const hardSkils = [
   "Jupyter",
   "Python",
-  "C",
   "Scala",
   "SciKit-Learn",
   "TensorFlow",
   "Keras",
   "Java",
+  "C",
   "HTML",
   "CSS",
   "JavaScript",
@@ -236,5 +237,15 @@ const loisirs = [
   "Kick-Boxing en competition",
   "Nouvelles technologies",
   "Cuisine",
+  "Voyages",
 ];
 </script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300;
+}
+</style>
