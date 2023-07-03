@@ -9,7 +9,7 @@
           >linkedin.com/in/t-lasnier</a
         >
         |
-        <a href="https://theo-lasnier.dev">theo-lasnier.dev</a>
+        <a href="https://github.com/Blyzi">https://github.com/</a>
       </div>
       <div class="text-center underline">
         J1 Visa Candidate. Will not require sponsorship.

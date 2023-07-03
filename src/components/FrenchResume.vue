@@ -69,7 +69,7 @@
             class="text-white text-lg"
           />
           <ExperienceDescription
-            title="Analyse d'avis produits par Traitement du Langage Naturel (NLP)"
+            title="Analyse d'avis produits par Traitement du Langage Naturel"
             company="Mastercamp"
             start-date="06/2023"
             end-date="07/2023"
@@ -142,9 +142,9 @@
           link="https://linkedin.com/in/t-lasnier"
         />
         <IconText
-          text="theo-lasnier.dev"
-          :icon="GlobeAltIcon"
-          link="https://theo-lasnier.dev"
+          text="theo-lasnier.git"
+          :img-icon="GithubIcon"
+          link="https://github.com/Blyzi"
         />
         <IconText text="Paris, France" :icon="MapPinIcon" />
       </div>
@@ -192,6 +192,7 @@ import {
 } from "@heroicons/vue/24/solid";
 import IconText from "./IconText.vue";
 import LinkedinIcon from "../assets/Linkedin_icon.svg";
+import GithubIcon from "../assets/github-mark.svg";
 import SkillTag from "./SkillTag.vue";
 import ExperienceDescription from "./FExperienceDescription.vue";
 
